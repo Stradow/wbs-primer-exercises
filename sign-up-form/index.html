@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <h1>Sign up Form</h1>
+
+    <form>
+      <fieldset>
+        <label>Choose a bootcamp:</label>
+        <select required>
+          <option>Please Select your course</option>
+          <option>Fullstack Web Development</option>
+          <option>Frontend Web Development</option>
+          <option>Backend Web Development</option>
+        </select>
+        <br />
+        <label>Course Type:</label>
+        <select>
+          <option>Full-Time</option>
+          <option>Part-Time</option>
+        </select>
+        <br />
+        <label>First name:</label>
+        <input type="text" required placeholder="Kostas" />
+        <br />
+        <label>Last name:</label>
+        <input type="text" required placeholder="Doe" />
+        <br />
+        <label>Country of residence:</label>
+        <input type="text" required placeholder="Greece" />
+        <br />
+        <label>Email:</label>
+        <input type="email" required placeholder="Kostas.Doe@email.com" />
+        <br />
+        <label>Phone: (Including your country code)</label>
+        <input type="tel" required placeholder="+30 123456789" />
+        <br />
+        <label>What Describes your current situation best:</label>
+        <select>
+          <option></option>
+          <option>Unemployed</option>
+          <option>Employed</option>
+        </select>
+        <br />
+        <button type="submit">Send Application</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
