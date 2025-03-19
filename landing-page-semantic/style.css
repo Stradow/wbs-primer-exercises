@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif, Merriweather;
+  background-color: #efefef;
+  text-align: center;
+}
+
+header {
+  padding: 2rem 3rem;
+  border-bottom: 1px solid #000000;
+  text-align: center;
+  color: rgb(135, 81, 81);
+}
+
+section {
+  margin: 2rem;
+  margin-bottom: 2rem;
+}
+
+section li {
+  list-style: none;
+}
+
+form {
+  background-color: rgba(235, 227, 227, 0.551);
+  font-size: 24px;
+}
+
+form button {
+  font-size: 30px;
+  background-color: lightgray;
+}
+
+button:hover {
+  color: orangered;
+}
+
+footer {
+  font-size: 24px;
+}
