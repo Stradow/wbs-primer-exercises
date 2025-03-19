@@ -6,48 +6,110 @@
     <title>Sign Up Form</title>
   </head>
   <body>
-    <h1>Sign up Form</h1>
-
-    <form>
-      <fieldset>
-        <label>Choose a bootcamp:</label>
-        <select required>
-          <option>Please Select your course</option>
-          <option>Fullstack Web Development</option>
-          <option>Frontend Web Development</option>
-          <option>Backend Web Development</option>
-        </select>
-        <br />
-        <label>Course Type:</label>
-        <select>
-          <option>Full-Time</option>
-          <option>Part-Time</option>
-        </select>
-        <br />
-        <label>First name:</label>
-        <input type="text" required placeholder="Kostas" />
-        <br />
-        <label>Last name:</label>
-        <input type="text" required placeholder="Doe" />
-        <br />
-        <label>Country of residence:</label>
-        <input type="text" required placeholder="Greece" />
-        <br />
-        <label>Email:</label>
-        <input type="email" required placeholder="Kostas.Doe@email.com" />
-        <br />
-        <label>Phone: (Including your country code)</label>
-        <input type="tel" required placeholder="+30 123456789" />
-        <br />
-        <label>What Describes your current situation best:</label>
-        <select>
-          <option></option>
-          <option>Unemployed</option>
-          <option>Employed</option>
-        </select>
-        <br />
-        <button type="submit">Send Application</button>
-      </fieldset>
-    </form>
+    <header>
+      <h1>Sign up Form</h1>
+      <p>Take the first step to change your life</p>
+    </header>
+    <main>
+      <form>
+        <fieldset>
+          <label for="bootcamp">Choose a bootcamp:</label>
+          <select name="bootcamp" id="bootcamp" required>
+            <option disabled selected value="">
+              Please Select your course
+            </option>
+            <option>Fullstack Web Development</option>
+            <option>Frontend Web Development</option>
+            <option>Backend Web Development</option>
+          </select>
+          <br />
+          <label>Course Type:</label>
+          <select>
+            <option>Full-Time</option>
+            <option>Part-Time</option>
+          </select>
+          <br />
+          <label for="first-name">First name:</label>
+          <input
+            type="text"
+            name="first-name"
+            id="first-name"
+            required
+            placeholder="Kostas"
+          />
+          <br />
+          <label for="last-name">Last name:</label>
+          <input
+            type="text"
+            name="last-name"
+            id="last-name"
+            required
+            placeholder="Doe"
+          />
+          <br />
+          <label for="country">Country of residence:</label>
+          <input
+            type="text"
+            name="country"
+            id="country"
+            required
+            placeholder="Greece"
+          />
+          <br />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            nam="email"
+            id="email"
+            required
+            placeholder="Kostas.Doe@email.com"
+          />
+          <br />
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            required
+            placeholder="*******"
+          />
+          <br />
+          <label for="confirm-password">Confirm Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            required
+            placeholder="*******"
+          />
+          <br />
+          <label>Phone: (Including your country code)</label>
+          <input type="tel" required placeholder="+30 123456789" />
+          <br />
+          <fieldset>
+            <legend>What Describes your current situation best:</legend>
+            <input
+              type="radio"
+              name="employement-status"
+              id="unemployed"
+              value="unemployed"
+            />
+            <label for="unemployed">Unemployed</label>
+            <input
+              type="radio"
+              name="employement-status"
+              id="employed"
+              value="employed"
+            />
+            <label for="employed">Employed</label>
+          </fieldset>
+          <br />
+          <label>Date of birth</label>
+          <input type="date" />
+          <br />
+          <button type="submit">Send Application</button>
+        </fieldset>
+      </form>
+    </main>
   </body>
 </html>
