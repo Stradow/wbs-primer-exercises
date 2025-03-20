@@ -69,25 +69,25 @@ section li {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  /* CSS rules for extra small screens */
+  body {
+    background-color: lightblue;
+    font-size: 24px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px to 768px) */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
-  /* CSS rules for small screens */
-}
-
-/* Medium devices (landscape tablets, 768px to 992px) */
-@media only screen and (min-width: 769px) and (max-width: 992px) {
-  /* CSS rules for medium screens */
+  body {
+    background-color: rgb(129, 190, 210);
+    font-size: 20px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px to 1200px) */
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
-  /* CSS rules for large screens */
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: 1201px) {
-  /* CSS rules for extra large screens */
+  body {
+    background-color: rgb(75, 79, 80);
+    font-size: 18px;
+    color: #fff;
+  }
 }
