@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #c0c0c0;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+body {
+  font-family: "Montserrat", "Roboto", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #000;
+  /* background-image: url(/time-travel-agency/images/background/background.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; */
+}
+
+.home-page {
+  display: grid;
+  grid-template-rows: 3;
+}
+
+footer {
+  border: 1px solid black;
+  background-color: #c0c0c0;
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#contact {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
